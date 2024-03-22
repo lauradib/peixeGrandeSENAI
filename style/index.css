@@ -27,13 +27,13 @@ height: 380px;}
     display: flex;
    align-items: center;
 }
-#servicos{
+#servicos1{
     width: 80%;
     flex-direction: column;
     
 }
 
-#agenda{
+#agenda1{
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -50,5 +50,21 @@ h2{
     background-color: beige;
     box-shadow: 10px;
 
+}
+
+#agenda{
+
+    flex-direction: column;
+    display: flex;
+    text-align: right;
+    
+    
     
 }
+
+#servicos{
+    display: flex;
+    width: 40%;
+    flex-direction: column;}
+
+
