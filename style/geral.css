@@ -11,19 +11,17 @@
 :root{
     --preto: black;
     --branco: white; 
+ 
 }
 
 a{
     text-decoration: none;
     color: var(--preto);
-    margin: 0px 10px;
-    text-align: end;
-    gap: 3%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    display: flex;
+    align-items: end;
+    padding: 10px 10px 10px 10px; 
+
 }
+
 
 #cabecalho{
     width: 0px;
@@ -40,5 +38,9 @@ footer{
     height: 60px;
     align-items: center;
   
+}
+
+p{
+    padding: 10px 10px 10px 10px; 
 }
 
